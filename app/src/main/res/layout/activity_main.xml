@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.michell.demo07_3.MainActivity"
+    android:paddingBottom="8dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:paddingTop="8dp"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nuevo registro"
+        android:textSize="18sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

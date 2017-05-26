@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/etSecondNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el Nombre"
+            android:textSize="17sp"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/etSecondApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el Apellido"
+            android:textSize="17sp"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/etSecondDocument"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el Documento"
+            android:textSize="17sp"
+            android:inputType="number"
+            android:maxLength="8"/>
+
+        <EditText
+            android:id="@+id/etSecondEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese la Edad"
+            android:textSize="17sp"
+            android:inputType="number"
+            android:maxLength="2"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+        <Button
+            android:id="@+id/btSecondRegistrar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registrar"
+            android:textSize="15sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"/>
+        <Button
+            android:id="@+id/btSecondActualizar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Actualizar"
+            android:textSize="15sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"/>
+        <Button
+            android:id="@+id/btSecondEliminar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Eliminar"
+            android:textSize="15sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
