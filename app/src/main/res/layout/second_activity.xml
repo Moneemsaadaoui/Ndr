@@ -11,72 +11,107 @@
         android:layout_height="match_parent"
         android:padding="8dp">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add ride.."
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="59dp" />
+
         <EditText
             android:id="@+id/etSecondNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ingrese el Nombre"
-            android:textSize="17sp"
-            android:inputType="textCapSentences"/>
+            android:hint="From"
+            android:inputType="textCapSentences"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <EditText
             android:id="@+id/etSecondApellido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ingrese el Apellido"
-            android:textSize="17sp"
-            android:inputType="textCapSentences"/>
+            android:hint="To"
+            android:inputType="textCapSentences"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <EditText
             android:id="@+id/etSecondDocument"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ingrese el Documento"
-            android:textSize="17sp"
+            android:hint="Places"
             android:inputType="number"
-            android:maxLength="8"/>
+            android:maxLength="8"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <EditText
             android:id="@+id/etSecondEdad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ingrese la Edad"
-            android:textSize="17sp"
+            android:hint="Date"
             android:inputType="number"
-            android:maxLength="2"/>
+            android:maxLength="2"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="8dp">
-        <Button
-            android:id="@+id/btSecondRegistrar"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Registrar"
-            android:textSize="15sp"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffffff"/>
-        <Button
-            android:id="@+id/btSecondActualizar"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Actualizar"
-            android:textSize="15sp"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffffff"/>
-        <Button
-            android:id="@+id/btSecondEliminar"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Eliminar"
-            android:textSize="15sp"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btSecondRegistrar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="ADD"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btSecondActualizar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Update"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btSecondEliminar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Delete"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
         </LinearLayout>
     </LinearLayout>
 

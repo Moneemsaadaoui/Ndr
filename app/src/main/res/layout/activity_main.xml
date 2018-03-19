@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.michell.demo07_3.MainActivity"
+    tools:context="com.michell.Neder.MainActivity"
     android:paddingBottom="8dp"
     android:layout_marginRight="16dp"
     android:layout_marginLeft="16dp"
@@ -22,9 +22,9 @@
         android:id="@+id/btMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="nuevo registro"
-        android:textSize="18sp"
         android:backgroundTint="@color/colorPrimary"
-        android:textColor="#ffffff"/>
+        android:text="Add New"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
 
 </LinearLayout>

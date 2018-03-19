@@ -1,4 +1,4 @@
-package com.michell.demo07_3;
+package com.michell.Neder;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

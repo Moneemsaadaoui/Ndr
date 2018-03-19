@@ -1,8 +1,7 @@
-package com.michell.demo07_3;
+package com.michell.Neder;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -21,14 +20,14 @@ public class SecondActivity extends AppCompatActivity {
     private final View.OnClickListener btSecondEliminarOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Toast.makeText(SecondActivity.this, "Eliminar", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SecondActivity.this, "Deleted", Toast.LENGTH_SHORT).show();
         }
     };
 
     private final View.OnClickListener btSecondActualizarOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Toast.makeText(SecondActivity.this, "Actualizar", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SecondActivity.this, "Updated", Toast.LENGTH_SHORT).show();
             
         }
     };
